@@ -1,25 +1,14 @@
 import React from "react";
 
 import ReactDOM from "react-dom";
+
 import "./index.css"
+
+import TasksList from "./components/TaskList";
 
 //My first component
 
-function Task(props){
-	return (
-		<li className="tasks-item">{props.taskName}</li>
-	);
-}
 
-function TasksList() {
-  return (
-    <ul>
-    	<Task taskName="Follow Edukasyon.ph on Facebook."/>
-    	<Task taskName="Follow AWS Siklab PH on Facebook."/>
-    	<Task taskName="Follow Zuitt Coding Bootcamp on Facebook."/>
-    </ul>
-  );
-}
 
 function App() {
 
